@@ -1,11 +1,10 @@
 import { Section } from "./components/ui/Section";
 import { Button } from "./components/ui/Button";
-import { MoveRight, CheckCircle2, Factory, Zap, ShieldCheck, Users } from "lucide-react";
+import { MoveRight, CheckCircle2 } from "lucide-react";
 
 export default function Home() {
     return (
         <div className="flex flex-col">
-            {/* Hero Section */}
             {/* Hero Section */}
             <Section className="py-24 md:py-32 lg:py-48 relative overflow-hidden bg-noise">
                 {/* Subtle Graphic: Floating Star */}
@@ -17,21 +16,21 @@ export default function Home() {
 
                 <div className="max-w-4xl relative z-10">
                     <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-bold tracking-tight text-text-primary mb-8 leading-[1.05] animate-fade-in-up relative">
-                        From Zero to One — Building Mobility Products That Ship
+                        From Zero to One — Taking Ideas to Building Traction
                         {/* Subtle Graphic: Underline Squiggle */}
                         <svg className="absolute -bottom-6 left-0 w-64 h-6 text-brand-primary opacity-60 hidden md:block" viewBox="0 0 200 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M2.00026 6.99996C32.1287 3.29237 63.858 1.48704 95.5398 2.02984C128.463 2.59389 160.85 4.30448 193.078 7.08007" stroke="currentColor" strokeWidth="3" strokeLinecap="round" />
                         </svg>
                     </h1>
                     <p className="text-2xl md:text-3xl text-text-secondary mb-12 leading-relaxed max-w-2xl font-light animate-fade-in-up delay-100">
-                        We help early-stage mobility startups validate ideas, define the right product, and build production-ready mobile and web applications.
+                        We help early-stage startups in any field validate ideas, define the right solution, and build MVPs that distill a dream into reality.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-6 items-start sm:items-center animate-fade-in-up delay-200">
                         <Button href="https://calendly.com/khanratanmoy33/30min" size="lg" className="text-lg px-8 py-5">
                             Book a Zero→One Strategy Call
                         </Button>
                         <span className="text-base text-text-secondary mt-2 sm:mt-0 px-2 font-medium">
-                            For early-stage EU startups
+                            For idea-stage and seed-stage startups
                         </span>
                     </div>
                 </div>
@@ -45,36 +44,17 @@ export default function Home() {
                 </svg>
 
                 <h2 className="text-4xl md:text-5xl font-serif font-bold mb-16 tracking-tight animate-fade-in-up relative z-10">Who We Work With</h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 relative z-10">
-                    {[
-                        {
-                            icon: <Zap className="w-6 h-6 text-brand-primary" />,
-                            text: "Pre-seed and seed-stage startups"
-                        },
-                        {
-                            icon: <Factory className="w-6 h-6 text-brand-primary" />,
-                            text: "Mobility, EV, automotive, logistics, and smart transportation teams"
-                        },
-                        {
-                            icon: <Users className="w-6 h-6 text-brand-primary" />,
-                            text: "Founders connected to MobilityXlab"
-                        },
-                        {
-                            icon: <ShieldCheck className="w-6 h-6 text-brand-primary" />,
-                            text: "Teams that want speed without burning capital"
-                        },
-                    ].map((item, i) => (
-                        <div key={i} className="flex items-start gap-4 p-6 bg-background-primary rounded-xl shadow-sm border border-text-secondary/10 hover:shadow-md transition-shadow">
-                            <div className="mt-1 shrink-0 bg-brand-primary/10 p-2 rounded-lg">
-                                {item.icon}
-                            </div>
-                            <p className="text-lg font-medium text-text-primary">{item.text}</p>
-                        </div>
-                    ))}
+                <div className="relative z-10 max-w-4xl space-y-6">
+                    <p className="text-xl md:text-2xl text-text-secondary leading-relaxed">
+                        We work with idea-stage and seed-stage startups to bring their dream to market.
+                    </p>
+                    <p className="text-xl md:text-2xl text-text-secondary leading-relaxed">
+                        We have worked in event production, fintech, entertainment, podcasts, deep tech, AI, and non-profits.
+                    </p>
+                    <p className="text-text-secondary text-sm italic border-l-2 border-brand-primary/30 pl-4 py-1">
+                        If you already have product-market fit and a large internal team, we may not be the right fit.
+                    </p>
                 </div>
-                <p className="mt-8 text-text-secondary text-sm italic border-l-2 border-brand-primary/30 pl-4 py-1">
-                    If you already have product-market fit and a large internal team, we may not be the right fit.
-                </p>
             </Section>
 
             {/* Execution Model */}
@@ -85,17 +65,17 @@ export default function Home() {
                 </div>
 
                 <div className="space-y-12 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-text-secondary/20 before:to-transparent">
-                    {[
-                        { title: "Competitor & Market Research", desc: "We analyze competitors, substitutes, and adjacent solutions to identify real gaps." },
-                        { title: "Product–Market Fit Validation", desc: "We validate the problem, the user, and the willingness to adopt." },
-                        { title: "Feature List Finalisation", desc: "We cut noise and define a lean, validation-focused feature set." },
-                        { title: "Design Partner Alignment", desc: "UX direction that supports decision-making, not decoration." },
-                        { title: "Development & Launch", desc: "Native mobile apps, web apps, and scalable systems built for production." },
-                        { title: "Lead Generation Setup", desc: "Early traction systems so your product doesn’t launch in isolation." },
-                    ].map((step, i) => (
-                        <div key={i} className={`relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active animate-fade-in-up delay-${(i + 2) * 100}`}>
+                        {[
+                            { title: "Competitor & Market Research", desc: "We analyze competitors, substitutes, and adjacent solutions to identify real gaps." },
+                            { title: "Product–Market Fit Validation", desc: "We validate the problem, the user, and the willingness to adopt." },
+                            { title: "Feature List Finalisation", desc: "We cut noise and define a lean, validation-focused feature set." },
+                            { title: "Design Partner Alignment", desc: "UX direction that supports decision-making, not decoration." },
+                            { title: "Development & Launch", desc: "Native mobile apps, web apps, and scalable systems built for production." },
+                            { title: "Marketing & Distribution Strategy", desc: "We guide you in marketing and distribution strategy, then pinpoint market response for iteration." },
+                        ].map((step, i) => (
+                            <div key={i} className={`relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active animate-fade-in-up delay-${(i + 2) * 100}`}>
 
-                            <div className="flex items-center justify-center w-10 h-10 rounded-full border border-text-secondary/20 bg-background-primary group-hover:border-brand-primary group-hover:text-brand-primary text-text-secondary/60 font-bold text-sm shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10 transition-colors shadow-sm">
+                                <div className="flex items-center justify-center w-10 h-10 rounded-full border border-text-secondary/20 bg-background-primary group-hover:border-brand-primary group-hover:text-brand-primary text-text-secondary/60 font-bold text-sm shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10 transition-colors shadow-sm">
                                 0{i + 1}
                             </div>
 
@@ -109,20 +89,26 @@ export default function Home() {
                 </div>
             </Section>
 
-            {/* Technology */}
+            {/* What We Build */}
             <Section background="gray">
                 <div className="grid md:grid-cols-2 gap-12 items-center">
                     <div>
-                        <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6 tracking-tight">Technology We Use</h2>
+                        <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6 tracking-tight">What We Build</h2>
                         <p className="text-xl md:text-2xl text-text-secondary mb-8">
-                            We choose technology based on reliability, speed, and long-term maintainability.
+                            Whether it’s a soft launch, a native app, a web app, or a scalable system in production — we build what moves the needle.
                         </p>
                     </div>
                     <div className="grid gap-3">
-                        {["Agentic UI", "AI Agent Development", "Generative AI", "Native Mobile Apps (iOS & Android)", "Websites and Web Applications"].map((tech) => (
-                            <div key={tech} className="flex items-center gap-3 bg-background-primary px-5 py-3 rounded-lg border border-text-secondary/20 shadow-sm">
+                        {[
+                            "Lean MVPs designed for validation",
+                            "Native mobile apps (iOS & Android)",
+                            "Web apps, dashboards, and landing pages",
+                            "Scalable backend systems built for production",
+                            "Build, launch, and refine with real market feedback",
+                        ].map((item) => (
+                            <div key={item} className="flex items-center gap-3 bg-background-primary px-5 py-3 rounded-lg border border-text-secondary/20 shadow-sm">
                                 <div className="w-1.5 h-1.5 rounded-full bg-brand-primary"></div>
-                                <span className="font-medium text-text-primary">{tech}</span>
+                                <span className="font-medium text-text-primary">{item}</span>
                             </div>
                         ))}
                     </div>
@@ -157,7 +143,7 @@ export default function Home() {
                     {[
                         { step: "1", title: "Intro Call" },
                         { step: "2", title: "Zero→One Plan" },
-                        { step: "3", title: "Build & Launch" }
+                        { step: "3", title: "Build, Launch & Refine" }
                     ].map((item, i) => (
                         <div key={i} className="text-center relative">
                             <div className="text-6xl font-black text-text-secondary/10 mb-4 font-sans">{item.step}</div>
@@ -173,7 +159,7 @@ export default function Home() {
             <Section>
                 <div className="bg-text-primary text-white rounded-3xl p-12 md:p-20 text-center relative overflow-hidden">
                     <div className="relative z-10 max-w-2xl mx-auto">
-                        <h2 className="text-3xl md:text-4xl font-bold mb-8">Building a mobility product?</h2>
+                        <h2 className="text-3xl md:text-4xl font-bold mb-8">Building a product?</h2>
                         <Button href="https://calendly.com/khanratanmoy33/30min" variant="primary" size="lg" className="bg-background-primary text-text-primary hover:bg-white hover:text-text-primary border-none">
                             Book a Zero→One Strategy Call
                         </Button>

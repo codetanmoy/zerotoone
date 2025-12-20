@@ -10,7 +10,7 @@ export function Footer() {
                             Zero To One
                         </Link>
                         <p className="text-text-secondary text-sm leading-relaxed max-w-xs">
-                            Building mobility products that ship. Helping founders go from idea to product-market fit.
+                            Building MVPs that ship. Helping founders go from idea to traction.
                         </p>
                     </div>
 

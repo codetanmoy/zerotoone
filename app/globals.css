@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 @theme {
-    --font-sans: var(--font-inter), system-ui, sans-serif;
-    --font-serif: var(--font-fraunces), serif;
+    --font-sans: var(--font-inter, system-ui), system-ui, sans-serif;
+    --font-serif: var(--font-fraunces, ui-serif), ui-serif, Georgia, serif;
 
     /* New Earth-Tone Palette */
     --color-brand-primary: #BC6C25;

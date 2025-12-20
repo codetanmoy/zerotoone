@@ -1,6 +1,5 @@
 import { Section } from "../components/ui/Section";
 import { Button } from "../components/ui/Button";
-import { Linkedin, Twitter } from "lucide-react";
 
 export default function About() {
     return (
@@ -16,7 +15,7 @@ export default function About() {
                 <div className="max-w-4xl mx-auto text-center relative z-10">
                     <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-bold tracking-tight text-text-primary mb-12 animate-fade-in-up">About Us</h1>
                     <p className="text-xl md:text-3xl leading-relaxed text-text-secondary font-light animate-fade-in-up delay-100 max-w-3xl mx-auto">
-                        We are a small, focused product consultancy helping early-stage mobility startups go from zero to one.
+                        We are a small, focused product consultancy helping early-stage startups go from zero to one.
                         <span className="block mt-6 text-text-primary font-normal">
                             Clarity. Speed. Accountability.
                         </span>
@@ -62,7 +61,7 @@ export default function About() {
                         <p className="text-brand-primary font-medium mb-6 uppercase tracking-wider text-sm">Founder & Technology Lead</p>
                         <div className="text-text-secondary space-y-4 leading-relaxed">
                             <p>
-                                "Ship over perfect." With 15+ years in the game, Tanmoy is a builder at heart. From desktop C apps to embedded systems and native iOS/Android development, he brings deep technical precision to every project.
+                                “Ship over perfect.” With 15+ years in the game, Tanmoy is a builder at heart. From desktop C apps to embedded systems and native iOS/Android development, he brings deep technical precision to every project.
                             </p>
                             <p>
                                 Formerly CTO of ZeerSafe, he now focuses on mental wellness and productivity tech through Quantum and AppToDesign. He bridges the gap between complex engineering and user-focused MVP solutions.

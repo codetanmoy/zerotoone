@@ -6,7 +6,7 @@ export default function Services() {
     const services = [
         {
             title: "Competitor & Market Research",
-            items: ["Direct and indirect competitors", "Corporate alternatives", "EU and Nordic market dynamics"],
+            items: ["Direct and indirect competitors", "Corporate alternatives", "Market dynamics and buyer context"],
             outcome: "Clear positioning and opportunity mapping."
         },
         {
@@ -30,9 +30,9 @@ export default function Services() {
             outcome: "Production-ready software, not prototypes."
         },
         {
-            title: "Lead Generation & Early Growth",
-            items: ["Early customer discovery", "Partner outreach systems", "Lead pipeline setup"],
-            outcome: "Momentum after launch."
+            title: "Marketing & Distribution Strategy",
+            items: ["Go-to-market messaging", "Distribution channels & partner outreach", "Iteration loop based on market response"],
+            outcome: "Momentum after launch — and a clear signal for what to refine."
         }
     ];
 
@@ -47,14 +47,14 @@ export default function Services() {
                 </div>
 
                 <h1 className="text-5xl md:text-7xl font-serif font-bold tracking-tight text-text-primary mb-8 max-w-5xl animate-fade-in-up relative z-10">
-                    Zero to One Product Services for Mobility Startups
+                    Zero to One Product Services for Early-Stage Startups
                     {/* Subtle Graphic: Underline Squiggle */}
                     <svg className="absolute -bottom-4 right-20 w-48 h-4 text-brand-secondary opacity-60 hidden lg:block" viewBox="0 0 200 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M2.00026 6.99996C32.1287 3.29237 63.858 1.48704 95.5398 2.02984C128.463 2.59389 160.85 4.30448 193.078 7.08007" stroke="currentColor" strokeWidth="3" strokeLinecap="round" />
                     </svg>
                 </h1>
                 <p className="text-2xl md:text-3xl text-text-secondary max-w-3xl leading-relaxed animate-fade-in-up delay-100 relative z-10 w-full">
-                    Our services are designed for early-stage mobility startups that need clarity, speed, and execution.
+                    Our services are designed for idea-stage and seed-stage startups that need clarity, speed, and execution.
                 </p>
             </Section>
 
