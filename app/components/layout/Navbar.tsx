@@ -16,14 +16,14 @@ export function Navbar() {
                     <Link href="/about" className="text-sm font-medium text-text-primary/80 hover:text-brand-primary transition-colors">
                         About
                     </Link>
-                    <Button href="https://calendly.com/khanratanmoy33/30min" variant="primary" size="sm">
+                    <Button href="https://calendly.com/adamdavidjones/30min" variant="primary" size="sm">
                         Book a Strategy Call
                     </Button>
                 </div>
 
                 {/* Mobile menu placeholer - minimalist approach for now */}
                 <div className="md:hidden">
-                    <Button href="https://calendly.com/khanratanmoy33/30min" variant="primary" size="sm">
+                    <Button href="https://calendly.com/adamdavidjones/30min" variant="primary" size="sm">
                         Book Call
                     </Button>
                 </div>

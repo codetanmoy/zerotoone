@@ -78,7 +78,7 @@ export default function About() {
                         <p className="text-lg md:text-xl text-white/80 mb-10 font-light">
                             We bring a founder’s mindset to every project. Let’s figure out the challenges you’re dealing with.
                         </p>
-                        <Button href="https://calendly.com/khanratanmoy33/30min" variant="primary" size="lg" className="bg-background-primary text-text-primary hover:bg-white border-none">
+                        <Button href="https://calendly.com/adamdavidjones/30min" variant="primary" size="lg" className="bg-background-primary text-text-primary hover:bg-white border-none">
                             Book a Strategy Call
                         </Button>
                     </div>

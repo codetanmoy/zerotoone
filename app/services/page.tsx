@@ -105,7 +105,7 @@ export default function Services() {
             <Section background="gray">
                 <div className="text-center">
                     <h2 className="text-3xl font-bold mb-6">Ready to execute?</h2>
-                    <Button href="https://calendly.com/khanratanmoy33/30min" size="lg">
+                    <Button href="https://calendly.com/adamdavidjones/30min" size="lg">
                         Book a Zero→One Strategy Call
                     </Button>
                 </div>

@@ -26,7 +26,7 @@ export default function Home() {
                         We help early-stage startups in any field validate ideas, define the right solution, and build MVPs that distill a dream into reality.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-6 items-start sm:items-center animate-fade-in-up delay-200">
-                        <Button href="https://calendly.com/khanratanmoy33/30min" size="lg" className="text-lg px-8 py-5">
+                        <Button href="https://calendly.com/adamdavidjones/30min" size="lg" className="text-lg px-8 py-5">
                             Book a Zero→One Strategy Call
                         </Button>
                         <span className="text-base text-text-secondary mt-2 sm:mt-0 px-2 font-medium">
@@ -160,7 +160,7 @@ export default function Home() {
                 <div className="bg-text-primary text-white rounded-3xl p-12 md:p-20 text-center relative overflow-hidden">
                     <div className="relative z-10 max-w-2xl mx-auto">
                         <h2 className="text-3xl md:text-4xl font-bold mb-8">Building a product?</h2>
-                        <Button href="https://calendly.com/khanratanmoy33/30min" variant="primary" size="lg" className="bg-background-primary text-text-primary hover:bg-white hover:text-text-primary border-none">
+                        <Button href="https://calendly.com/adamdavidjones/30min" variant="primary" size="lg" className="bg-background-primary text-text-primary hover:bg-white hover:text-text-primary border-none">
                             Book a Zero→One Strategy Call
                         </Button>
                         <p className="mt-6 text-sm text-text-secondary/60">Limited onboarding each month.</p>

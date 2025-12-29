@@ -27,7 +27,7 @@ export function Footer() {
                         <h4 className="font-semibold mb-4 text-sm uppercase tracking-wider text-text-secondary/60">Connect</h4>
                         <ul className="space-y-3 text-sm">
                             <li>
-                                <a href="https://calendly.com/khanratanmoy33/30min" className="text-text-secondary hover:text-brand-primary">Book Strategy Call</a>
+                                <a href="https://calendly.com/adamdavidjones/30min" className="text-text-secondary hover:text-brand-primary">Book Strategy Call</a>
                             </li>
 
                         </ul>

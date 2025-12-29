@@ -25,7 +25,7 @@ export function CalendlyWidget() {
                 strategy="lazyOnload"
                 onLoad={() => {
                     window.Calendly?.initBadgeWidget({
-                        url: 'https://calendly.com/khanratanmoy33/30min',
+                        url: 'https://calendly.com/adamdavidjones/30min',
                         text: 'Schedule time with me',
                         color: '#bc6c25',
                         textColor: '#ffffff',
