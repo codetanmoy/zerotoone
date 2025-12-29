@@ -67,7 +67,7 @@ export default function Home() {
                 <div className="space-y-12 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-text-secondary/20 before:to-transparent">
                         {[
                             { title: "Competitor & Market Research", desc: "We analyze competitors, substitutes, and adjacent solutions to identify real gaps." },
-                            { title: "Product–Market Fit Validation", desc: "We validate the problem, the user, and the willingness to adopt." },
+                            { title: "Product–Market Fit Validation", desc: "We validate the problem, the customer, and the willingness to buy." },
                             { title: "Feature List Finalisation", desc: "We cut noise and define a lean, validation-focused feature set." },
                             { title: "Design Partner Alignment", desc: "UX direction that supports decision-making, not decoration." },
                             { title: "Development & Launch", desc: "Native mobile apps, web apps, and scalable systems built for production." },
@@ -95,7 +95,7 @@ export default function Home() {
                     <div>
                         <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6 tracking-tight">What We Build</h2>
                         <p className="text-xl md:text-2xl text-text-secondary mb-8">
-                            Whether it’s a soft launch, a native app, a web app, or a scalable system in production — we build what moves the needle.
+                            Whether it’s soft launch your restaurant, release your native or web app, or bring your scalable system into production, we can guide you in marketing and distribution strategy and then pinpoint the market response for further iteration.
                         </p>
                     </div>
                     <div className="grid gap-3">

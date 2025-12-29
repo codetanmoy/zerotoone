@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import "./globals.css";
 import { Navbar } from "./components/layout/Navbar";
 import { Footer } from "./components/layout/Footer";
@@ -17,6 +18,16 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body className="font-sans antialiased bg-background-primary text-text-primary selection:bg-brand-primary/20">
+                <Script src="https://www.googletagmanager.com/gtag/js?id=G-SB733YEJ7S" strategy="afterInteractive" />
+                <Script id="gtag-init" strategy="afterInteractive">
+                    {`
+                        window.dataLayer = window.dataLayer || [];
+                        function gtag(){dataLayer.push(arguments);}
+                        gtag("js", new Date());
+
+                        gtag("config", "G-SB733YEJ7S");
+                    `}
+                </Script>
                 <Navbar />
                 <main className="min-h-screen pt-20">
                     {children}
